@@ -1,0 +1,42 @@
+@import "./variables";
+
+.home-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .image-container {
+    position: relative;
+
+    .background-image {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .information-container {
+    padding: 1rem;
+
+    position: absolute;
+    z-index: 9999;
+
+    top: 2rem;
+    right: 2rem;
+    left: calc(100%/ 1.7);
+
+    background-color: rgba(57, 71, 102, 0.4);
+    backdrop-filter: blur(6px);
+
+    .information-title {
+      color: $red-brown;
+    }
+
+    .information-body {
+      color: #fff;
+    }
+  }
+}
