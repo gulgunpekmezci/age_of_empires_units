@@ -1,8 +1,8 @@
 # age_of_empires_units
 
 Projeyi çalıştırmak için izlenecek adımlar;
-yarn install 
-yarn start
+ - yarn install 
+ - yarn start
 
 Proje http://localhost:3000/ üzerinde çalışacaktır.
 
